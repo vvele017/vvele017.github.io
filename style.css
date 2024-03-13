@@ -49,3 +49,9 @@ html {
 .project {
     animation: fadeIn 1s ease-in-out;
 }
+
+/* CSS for smooth animation from scripts.js*/
+.smooth-animation {
+    transition: transform 1s ease-in-out; /* Change properties and duration as needed */
+    transform: scale(1.2); /* Example: scaling the element */
+}
